@@ -12,7 +12,6 @@ p {
   margin: 1em;
   font-family: 'Roboto', sans-serif;
   color: white;
-  text-indent: 30px;
   line-height: 25px;
 }
 
@@ -30,6 +29,17 @@ p {
   margin: 10px;
   padding: 5px;
   border: 5px white double;
+}
+
+.containerForm {
+  margin: 10px;
+  padding: 10px;
+}
+
+.containerForm input {
+  margin: 10px;
+  display: inline;
+  border-radius: 15px;
 }
 
 .characters {
@@ -69,6 +79,35 @@ p {
   width: 500px;
   height: auto;
   display: block;
+}
+
+#footer {
+  padding: 5px;
+}
+
+#footer p {
+  margin: 15px;
+  color: black;
+}
+
+a {
+  color: grey;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  font-size: 1.1em;
+}
+
+ul {
+  display: inline;
+}
+
+ul li {
+  display: inline-block;
+  margin: 5px;
 }
 
 @media (hover: hover) {
