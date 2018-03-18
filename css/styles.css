@@ -1,15 +1,92 @@
-body {
-  
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|Roboto');
+
+.center { text-align: center; }
+
+h1 {
+  margin: 5px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+  color: white;
+}
+p {
+  margin: 1em;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-indent: 30px;
+  line-height: 25px;
+}
+
+.logo {
+  width: 50%;
+  margin: 0px auto;
+}
+
+#article {
+  background-color: black;
+  padding: 10px;
+}
+
+.container {
+  margin: 10px;
+  padding: 5px;
+  border: 5px white double;
+}
+
+.characters {
+  display: block;
+  text-align: center;
+}
+
+
+/* photo gallery */
+.thumbnail img {
+  width: 100px;
+  opacity: 0.5;
+}
+
+.thumbnail {
+  display: inline-block;
+  margin: 10px;
+}
+
+.imgBar {
+  margin: 10px;
+  padding: 5px;
+  border: 10px white ridge;
+}
+
+.chicken {
+  margin: 10px;
+  padding: 5px;
+  width: 100%;
+  height: 400px;
+}
+
+#lightbox {
+  position: relative;
+  text-align: center;
+  margin: 5px auto;
+  width: 500px;
+  height: auto;
+  display: block;
 }
 
 @media (hover: hover) {
-
+  img:hover { opacity: 0.8; }
 }
 
 @media screen and (max-width: 920px) {
+  .logo {
+    width: 450px;
+    margin: 0px auto;
+  }
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
+  .logo {
+    width: 100%;
+    margin: 0px auto;
+  }
 
 }
