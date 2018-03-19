@@ -2,7 +2,7 @@ $(document).ready( function () {
 
 
 
-  $("#article div img").click( function () {
+  $("#article .imgBar img").click( function () {
 
     var imageLink = $(this).attr("src");
 
