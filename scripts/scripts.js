@@ -25,4 +25,15 @@ $(document).ready( function () {
 
 
 
+$(".logo img").click(function () {
+    let myArray = [10,20,30,51];
+    let length = myArray.length;
+    let total = 0;
+    for (var i = 0; i < length; i++) {
+     total = total + myArray[i];
+    }
+    return console.log(total / length);
+  });
+
+
   });
